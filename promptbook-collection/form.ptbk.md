@@ -1,6 +1,6 @@
 # Zpracování formuláře
 
--   URL https://promptbook.studio/examples/idea.ptbk.md
+-   URL https://promptbook.studio/examples/form.ptbk.md
 -   INPUT PARAMETER {fullname} Jméno zákazníka
 -   INPUT PARAMETER {businessProblem} Popsaný problém
 -   OUTPUT PARAMETER {email} Email pro zakaznika
