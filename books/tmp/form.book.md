@@ -1,5 +1,6 @@
 # Zpracování formuláře
 
+
 -   URL `https://promptbook.studio/examples/form.book`
 -   INPUT PARAMETER `{fullname}` Jméno zákazníka
 -   INPUT PARAMETER `{businessProblem}` Popsaný problém
