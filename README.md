@@ -11,6 +11,8 @@ npm i ptbk
 2) Configure the environment variables - provide API keys for the model providers you want to use:
 
 ```conf
+# Note: You just need to configure one provider:
+
 # OpenAI
 OPENAI_API_KEY=sk-proj-...
 
@@ -26,17 +28,17 @@ AZUREOPENAI_DEPLOYMENT_NAME=...
 3) Then you can run the example from this repository:
 
 ```bash
-npx ptbk run ./promptbook-collection/hello.ptbk.md
+npx ptbk run ./books/hello.book
 ```
 
 And you should see the result:
 
 ```bash
-$ npx ptbk run ./promptbook-collection/hello.ptbk.md
-√ yourName ... Paul
+$ npx ptbk run ./books/hello.book
+√ yourName ... The World
 
 --- Result: ---
-greeting: Hello, Paul!
+greeting: Hello World!
 ```
 
 🚀✨ Now you have successfully run **your first Book!**
