@@ -1,0 +1,4 @@
+node_modules
+.env
+.promptbook
+# <- TODO: [🧠] Should be `.promptbook` folder with execution cache commited or not
