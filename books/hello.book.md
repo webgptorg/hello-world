@@ -1,6 +1,6 @@
 # ✨ Example: Write Hello for a user
 
-<!-- TODO: !!! -   PIPELINE URL https://promptbook.studio/examples/hello.book -->
+-   URL `https://promptbook.studio/examples/hello.book`
 -   INPUT PARAMETER `{yourName}` Name of the user
 -   OUTPUT PARAMETER `{greeting}` Greeting for the user
 

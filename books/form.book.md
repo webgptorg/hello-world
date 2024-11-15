@@ -1,9 +1,9 @@
 # Zpracování formuláře
 
-<!-- TODO: !!! -   URL https://promptbook.studio/examples/form.book -->
--   INPUT PARAMETER {fullname} Jméno zákazníka
--   INPUT PARAMETER {businessProblem} Popsaný problém
--   OUTPUT PARAMETER {email} Email pro zakaznika
+-   URL `https://promptbook.studio/examples/form.book`
+-   INPUT PARAMETER `{fullname}` Jméno zákazníka
+-   INPUT PARAMETER `{businessProblem}` Popsaný problém
+-   OUTPUT PARAMETER `{email}` Email pro zakaznika
 
 ## Vycisteni problemu
 
@@ -16,7 +16,7 @@ Simplify the problem from customer, get rid of unimportant information:
 
 ```
 
--> {filteredBusinessProblem}
+`-> {filteredBusinessProblem}`
 
 ## Ideace
 
@@ -32,7 +32,7 @@ Write me a list of ideas connected with problem
 
 ```
 
--> {ideas}
+`-> {ideas}`
 
 ## Analyza
 
@@ -52,4 +52,4 @@ Nápady co použij:
 
 ```
 
--> {email}
+`-> {email}`

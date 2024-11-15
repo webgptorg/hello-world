@@ -28,13 +28,13 @@ AZUREOPENAI_DEPLOYMENT_NAME=...
 3) Then you can run the example from this repository:
 
 ```bash
-npx ptbk run ./books/hello.book
+npx ptbk run ./books/hello.book.md
 ```
 
 And you should see the result:
 
 ```bash
-$ npx ptbk run ./books/hello.book
+$ npx ptbk run ./books/hello.book.md
 √ yourName ... The World
 
 --- Result: ---
