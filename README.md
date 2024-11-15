@@ -1,22 +1,33 @@
 # ✨ Hello World!
 
-In this repository, you will find a simple example of how to write your first [Book](https://github.com/webgptorg/book) and run it using the [Promptbook Engine](https://github.com/webgptorg/promptbook) via CLI.
+Welcome! In this repository, you'll find a simple example of how to write your first [Book](https://github.com/webgptorg/book) and run it using the [Promptbook Engine](https://github.com/webgptorg/promptbook) via the CLI.
 
-1) First, you need to install the Promptbook. Currently, you can install it using NPM. We are also working on an option to install it via package managers and installer files like `.msi`, `.rpm` or `.deb`:
+## Getting Started
+
+Follow these steps to get up and running:
+
+### 1. Clone the Repository
+First, clone this repository to your local machine.
+
+### 2. Install Promptbook
+Navigate to the root of the project and run the following command to install Promptbook:
 
 ```bash
 npm i ptbk
 ```
 
-2) Configure the environment variables - provide API keys for the model providers you want to use:
+**Note:** Currently, installation is supported only via NPM. We are actively working on adding support for other package managers and installer files such as `.msi`, `.rpm`, and `.deb`.
+
+### 3. Configure Environment Variables
+Create a `.env` file in the root of the project to configure the necessary API keys for the model providers you plan to use:
 
 ```conf
-# Note: You just need to configure one provider:
+# You only need to configure one provider:
 
 # OpenAI
 OPENAI_API_KEY=sk-proj-...
 
-# Anthropic claude
+# Anthropic Claude
 ANTHROPIC_CLAUDE_API_KEY=sk-ant-api03-...
 
 # Azure OpenAI
@@ -25,13 +36,15 @@ AZUREOPENAI_RESOURCE_NAME=...
 AZUREOPENAI_DEPLOYMENT_NAME=...
 ```
 
-3) Then you can run the example from this repository:
+### 4. Run the Example
+From the root of the repository, execute the following command to run the example:
 
 ```bash
 npx ptbk run ./books/hello.book.md
 ```
 
-And you should see the result:
+### Expected Output
+If everything is set up correctly, you should see the following output:
 
 ```bash
 $ npx ptbk run ./books/hello.book.md
@@ -41,4 +54,4 @@ $ npx ptbk run ./books/hello.book.md
 greeting: Hello World!
 ```
 
-🚀✨ Now you have successfully run **your first Book!**
+🚀✨ **Congratulations!** You've successfully run your first **Book** using Promptbook!
