@@ -11,7 +11,8 @@
 -   PERSONA Paul, analytic who can simplify the problem
 
 ```
-Simplify the problem from customer, get rid of unimportant information:
+Zjednoduš surový popis problému ze strany zákazníka, odstraň nedůležité informace:
+
 
 > {businessProblem}
 
@@ -27,7 +28,8 @@ Simplify the problem from customer, get rid of unimportant information:
 <!-- TODO: !!! -   KNOWLEGDE ./company-strategy.pdf -->
 
 ```
-Write me a list of ideas connected with problem
+Napiš seznam 20 nápadů souvisejících s problémem a řešením, každý nápad na nový řádek:
+
 
 > {filteredBusinessProblem}
 
@@ -43,11 +45,11 @@ Write me a list of ideas connected with problem
 <!-- TODO: !!! -   KNOWLEGDE ./company-strategy.pdf -->
 
 ```
-Napiš mi email pro zákazníka, který má tento problém:
+Napiš email pro zákazníka, který má tento problém:
 
 > {filteredBusinessProblem}
 
-Nápady co použij:
+Zde je několik nápadů, jak by se dal problém řešit:
 
 - {ideas}
 
