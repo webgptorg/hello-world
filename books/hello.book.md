@@ -4,6 +4,22 @@
 -   INPUT PARAMETER `{yourName}` Name of the user
 -   OUTPUT PARAMETER `{greeting}` Greeting for the user
 
+## Sample of the name
+
+- SAMPLE
+
+> Paul
+
+`-> {yourName}`
+
+## Sample of the name
+
+- SAMPLE
+
+> George
+
+`-> {yourName}`
+
 ## Writing Greeting
 
 -   PERSONA Jane, HR professional with prior experience in writing emails

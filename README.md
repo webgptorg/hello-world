@@ -54,4 +54,4 @@ $ npx ptbk books/hello.book.md
 greeting: Hello World!
 ```
 
-🚀✨ **Congratulations!** You've successfully run your first **Book** using Promptbook!
+🚀✨ **Congratulations!** You've successfully created **your first book** with Promptbook! Now you can [continue with the examples](/books/) or [the book language blueprint](https://github.com/webgptorg/book) to dive deeper into the book language, [integrate books into your app]() or [create instant miniapps](#!!!!!!) without classical programming.
