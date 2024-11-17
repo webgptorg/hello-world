@@ -6,6 +6,17 @@
 -   INPUT PARAMETER `{businessProblem}` Popsaný problém
 -   OUTPUT PARAMETER `{email}` Email pro zakaznika
 
+
+## Ukazka problemu
+
+- SAMPLE
+
+```
+Potřebuju udělat z nového programovacího jazyka novou velkou věc, budoucnost programování/promptování/promptamovaní, něco jako Python nebo Node nebo Java avsak nevím jak na to? Můžete mi s tím pomoct?
+```
+
+`-> {businessProblem}`
+
 ## Vycisteni problemu
 
 -   PERSONA Paul, analytic who can simplify the problem
@@ -45,7 +56,7 @@ Napiš seznam 20 nápadů souvisejících s problémem a řešením, každý ná
 <!-- TODO: !!! -   KNOWLEGDE ./company-strategy.pdf -->
 
 ```
-Napiš email pro zákazníka, který má tento problém:
+Napiš email pro {fullname}, který má tento problém:
 
 > {filteredBusinessProblem}
 

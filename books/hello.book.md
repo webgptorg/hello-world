@@ -1,3 +1,5 @@
+#!/usr/bin/env ptbk
+
 # ✨ Example: Write Hello for a user
 
 -   URL `https://promptbook.studio/examples/hello.book`
