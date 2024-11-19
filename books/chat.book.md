@@ -3,6 +3,7 @@
 # ✨ Example: Chat
 
 -   URL `https://promptbook.studio/examples/chat.book`
+-   FORMFACTOR `Chat`
 -   INPUT PARAMETER `{previousTitle}` Previous title of the conversation
 -   INPUT PARAMETER `{previousConversationSummary}` Previous conversation summary
 -   INPUT PARAMETER `{userMessage}` User message
