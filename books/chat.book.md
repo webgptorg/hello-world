@@ -21,7 +21,6 @@ Write reply to the user message in the chat:
 
 **Rules**
 
-- Topic of the conversation is {title}
 - Write just the reply, nothing else
 - Keep language of the user
 
@@ -36,7 +35,7 @@ Write reply to the user message in the chat:
 ## Summarize conversation
 
 ```markdown
-Summarize the conversation.
+Summarize the conversation {previousTitle}.
 
 **User asked**
 
@@ -53,7 +52,6 @@ Summarize the conversation.
 
 **Rules**
 
-- Topic of the conversation is {title}
 - Write just the reply, nothing else
 - Keep language of the user
 
