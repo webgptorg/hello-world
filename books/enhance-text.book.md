@@ -2,7 +2,7 @@
 
 Show how to use a simple prompt
 
--   PIPELINE URL https://promptbook.studio/miniapps-collection/corrections.book.md
+-   PIPELINE URL https://promptbook.studio/miniapps-collection/enhance-text.book.md
 -   FORMFACTOR `Translator`
 -   INPUT PARAMETER `{inputMessage}` Input text
 -   OUTPUT PARAMETER `{outputMessage}` Corrected text
