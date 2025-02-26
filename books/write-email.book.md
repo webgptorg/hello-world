@@ -4,8 +4,8 @@ Writing email assistant
 
 -   PIPELINE URL https://promptbook.studio/miniapps-collection/write-email.book.md
 -   FORMFACTOR `Translator`
--   INPUT PARAMETER `{inputMessage}` Input text
--   OUTPUT PARAMETER `{outputMessage}` Corrected text
+-   INPUT PARAMETER `{inputMessage}` Draft of the email
+-   OUTPUT PARAMETER `{outputMessage}` Tuned text of the email
 
 ## Sample of incorrect text
 
